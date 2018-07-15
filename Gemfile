@@ -7,9 +7,15 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+<<<<<<< HEAD
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
 gem 'pg', '~> 0.21'
+=======
+gem 'rails', '~> 5.1.6'
+# Use PostgreSQL as the database for Active Record
+gem 'pg', '~> 0.21' #Aquí queda requerida para cuando se descargue y corra el comando bundle install se instale automaticamente
+>>>>>>> 64dfd735d1e75c4d51607ec08f7a99d191ea76a5
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -26,7 +32,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
+# gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

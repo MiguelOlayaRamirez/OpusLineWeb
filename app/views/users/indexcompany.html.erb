@@ -16,9 +16,9 @@
 <div class="container">
 
 <div class="card card-login mx-auto mt-5">
-  <div class="card-header">Login</div>
+  <div class="card-header">Login Empresa</div>
   <div class="card-body">
-    <%= form_tag(:controller => "users", :action => "Login" ) do |f| %>
+  <%= form_tag(:controller => "users", :action => "loginEmpresa" ) do |f| %>
       <div class="form-group">
         <label for="lblUser">Correo Electronico</label>
         <input class="form-control" id="txtUser" name="txtUser" type="text" aria-describedby="emailHelp" placeholder="Enter user">
@@ -27,6 +27,7 @@
         <label for="lblPassword">Password</label>
         <input class="form-control" id="txtPassword" name="txtPassword" type="password" placeholder="Password">
       </div>
+      
       <input type="submit" class="btn btn-primary btn-block" value="Ingreso" />
      
     </div>

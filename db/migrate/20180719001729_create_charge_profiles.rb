@@ -1,0 +1,8 @@
+class CreateChargeProfiles < ActiveRecord::Migration[5.1]
+  def change
+    create_table :charge_profiles do |t|
+
+      t.timestamps
+    end
+  end
+end
